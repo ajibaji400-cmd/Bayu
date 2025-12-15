@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>SportShoes - Sepatu Olahraga</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>SportShoes</h1>
+    <nav>
+        <a href="#">Beranda</a>
+        <a href="#produk">Produk</a>
+        <a href="#tentang">Tentang</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Sepatu Olahraga Terbaik</h2>
+    <p>Nyaman, ringan, dan stylish untuk aktivitas olahraga Anda</p>
+    <button onclick="showAlert()">Lihat Promo</button>
+</section>
+
+<section class="container" id="produk">
+    <h2>Produk Kami</h2>
+   <div class="products">
+    <div class="product">
+        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80" alt="Sepatu Running">
+        <h3>Sepatu Running Pro</h3>
+        <p>Rp 750.000</p>
+        <button onclick="buyProduct('Sepatu Running Pro')">Beli</button>
+    </div>
+
+    <div class="product">
+        <img src="https://images.unsplash.com/photo-1606813909027-5f6f92e4e6b4?auto=format&fit=crop&w=800&q=80" alt="Sepatu Futsal">
+        <h3>Sepatu Futsal X</h3>
+        <p>Rp 680.000</p>
+        <button onclick="buyProduct('Sepatu Futsal X')">Beli</button>
+    </div>
+
+    <div class="product">
+        <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=800&q=80" alt="Sepatu Training">
+        <h3>Sepatu Training Flex</h3>
+        <p>Rp 820.000</p>
+        <button onclick="buyProduct('Sepatu Training Flex')">Beli</button>
+    </div>
+</div>
+
+</section>
+
+<section class="container" id="tentang">
+    <h2>Tentang Kami</h2>
+    <p>
+        SportShoes menyediakan sepatu olahraga berkualitas tinggi dengan desain modern
+        untuk mendukung performa olahraga Anda.
+    </p>
+</section>
+
+<section class="container" id="kontak">
+    <h2>Kontak</h2>
+    <p>Email: sportshoes@email.com</p>
+    <p>WhatsApp: 0812-3456-7890</p>
+</section>
+
+<footer>
+    <p>&copy; 2025 SportShoes</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
